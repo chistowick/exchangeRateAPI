@@ -1,0 +1,60 @@
+/*
+*Стили для таблицы с курсами валют
+*/
+body {
+    font: 100% "Trebuchet MS", Tahoma, Verdana;
+}
+
+/*Оформление таблицы */
+table {
+    border: 2px solid white;
+    border-spacing: 6px;
+    border-collapse: separate;
+}
+
+td {
+    min-width: 100px;
+    background: aquamarine;
+}
+
+#firstrow {
+    background: lightpink;
+}
+
+td, th {
+    padding: 6px 10px 6px 10px;
+}
+/* Конец оформления таблиц*/
+
+/*Стили для кнопки отправки формы*/
+.form_button {
+    padding: 10px 10px !important;
+    border-radius: 5px;
+    font: 100% "Trebuchet MS", Tahoma, Verdana !important ;
+    background-color: #6bdb96;
+    min-height: 30px;
+    min-width: 30px;
+    border: none;
+    cursor:pointer;
+}
+
+.form_button:hover {
+    background-color: #77f7a8;
+}
+/*Конец стилей для кнопки отправки формы*/
+
+input#input_date {
+    padding: 4px !important;
+    border-radius: 5px;
+    min-width: 30px;
+    border: 2px solid lightgray;
+    font: 120% "Trebuchet MS", Tahoma, Verdana !important;
+    color: lightgray;
+}
+
+input#input_date:focus {
+    color: black;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+}    
