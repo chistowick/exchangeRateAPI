@@ -6,7 +6,7 @@
  * обрабатываемых файлом /actions/main_action.php
  */
 
-$monetary_unit_list = [
+return array (
     'USD' => 'Доллар США',
     'EUR' => 'Евро',
-];
+);
